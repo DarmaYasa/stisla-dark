@@ -15,10 +15,10 @@
     margin-bottom: 5px;
     font-weight: 600;
     font-size: 15px;
-    color: color(fontdark);
+    color: color(font);
     a {
       font-weight: inherit;
-      color: #000;
+      color: color(font);
     }
   }
   .media-description {

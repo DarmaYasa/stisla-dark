@@ -50,7 +50,7 @@
 .article {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
-  background-color: #fff;
+  background-color: #2c2c2c;
   border-radius: 3px;
   border: none;
   position: relative;
@@ -82,7 +82,7 @@
           text-decoration: none;
           color: #fff; }
   .article .article-details {
-    background-color: #fff;
+    background-color: #2c2c2c;
     padding: 20px;
     line-height: 24px; }
     .article .article-details .article-cta {
@@ -107,7 +107,7 @@
       font-size: 16px;
       font-weight: 600; }
   .article.article-style-b .article-details p {
-    color: #34395e; }
+    color: #fafafa; }
   .article.article-style-b .article-details .article-cta {
     text-align: right; }
   .article.article-style-c .article-header {
@@ -116,10 +116,10 @@
     text-transform: uppercase;
     margin-bottom: 5px;
     letter-spacing: 1px;
-    color: #34395e; }
+    color: #fafafa; }
     .article.article-style-c .article-details .article-category a {
       font-size: 10px;
-      color: #34395e;
+      color: #fafafa;
       font-weight: 700; }
   .article.article-style-c .article-details .article-title {
     margin-bottom: 10px; }
@@ -129,7 +129,7 @@
       font-size: 16px;
       font-weight: 600; }
   .article.article-style-c .article-details p {
-    color: #34395e; }
+    color: #fafafa; }
   .article.article-style-c .article-user {
     display: inline-block;
     width: 100%;
@@ -190,7 +190,7 @@
   font-weight: 600;
   letter-spacing: .5px;
   font-size: 12px;
-  color: #34395e; }
+  color: #fafafa; }
 
 .author-box .author-box-description {
   line-height: 26px;
@@ -242,7 +242,7 @@
 
 /* 1.5 Chat */
 .chat-box .chat-content {
-  background-color: #f9f9f9 !important;
+  background-color: #383838 !important;
   height: 300px;
   overflow: hidden;
   padding-top: 25px !important; }
@@ -258,7 +258,7 @@
       text-align: right; }
       .chat-box .chat-content .chat-item.chat-right .chat-details .chat-text {
         text-align: left;
-        background-color: #6777ef;
+        background-color: #8997fc;
         color: #fff; }
     .chat-box .chat-content .chat-item > img {
       float: left;
@@ -268,7 +268,7 @@
       margin-left: 70px; }
       .chat-box .chat-content .chat-item .chat-details .chat-text {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
-        background-color: #fff;
+        background-color: #2c2c2c;
         padding: 10px 15px;
         border-radius: 3px;
         width: auto;
@@ -371,21 +371,21 @@ div.dataTables_wrapper div.dataTables_processing {
   font-size: 12px; }
 
 .ranges li {
-  color: #6777ef; }
+  color: #8997fc; }
   .ranges li:hover, .ranges li.active {
-    background-color: #6777ef; }
+    background-color: #8997fc; }
 
 .daterangepicker td.active, .daterangepicker td.active:hover {
-  background-color: #6777ef; }
+  background-color: #8997fc; }
 
 /* 1.10 Dropzone */
 .dropzone {
-  border: 2px dashed #6777ef;
+  border: 2px dashed #8997fc;
   min-height: 240px;
   text-align: center; }
   .dropzone .dz-message {
     font-size: 24px;
-    color: #34395e;
+    color: #fafafa;
     margin: 3.4em; }
   .dropzone .dz-preview .dz-details {
     padding: 2.2em 1em; }
@@ -416,7 +416,7 @@ div.dataTables_wrapper div.dataTables_processing {
 
 .fc-view {
   border-color: #f2f2f2;
-  color: #34395e !important;
+  color: #fafafa !important;
   font-weight: 500;
   padding: 10px; }
   .fc-view > table {
@@ -425,7 +425,7 @@ div.dataTables_wrapper div.dataTables_processing {
       border-color: #f2f2f2; }
     .fc-view > table th {
       border-color: #f2f2f2;
-      color: #34395e !important;
+      color: #fafafa !important;
       font-weight: 500;
       padding: 10px; }
 
@@ -470,7 +470,7 @@ tr:first-child > td > .fc-day-grid-event {
   text-shadow: none;
   border-radius: 0; }
   .fc button.fc-state-active {
-    background-color: #6777ef;
+    background-color: #8997fc;
     color: #fff; }
 
 /* 1.13 Gallery */
@@ -613,7 +613,7 @@ tr:first-child > td > .fc-day-grid-event {
   width: 13px;
   height: 13px;
   background-color: #fff;
-  border: 3px solid #6777ef;
+  border: 3px solid #8997fc;
   border-radius: 50%; }
 
 .jqvmap-label {
@@ -659,7 +659,7 @@ tr:first-child > td > .fc-day-grid-event {
         font-weight: 600;
         font-size: 12px;
         letter-spacing: .5px;
-        color: #34395e; }
+        color: #fafafa; }
       .profile-widget .profile-widget-items .profile-widget-item .profile-widget-item-value {
         color: #000;
         font-weight: 600;
@@ -696,23 +696,24 @@ tr:first-child > td > .fc-day-grid-event {
   user-select: none;
   -webkit-user-select: none;
   outline: none;
-  background-color: #fdfdff;
-  border-color: #e4e6fc; }
+  background-color: #212121;
+  border-color: #e4e6fc00;
+  color: #fafafa; }
 
 .select2-dropdown {
-  border-color: #e4e6fc !important; }
+  border-color: white !important; }
 
 .select2-container.select2-container--open .select2-selection--multiple {
-  background-color: #fefeff;
-  border-color: #95a0f4; }
+  background-color: #424242;
+  border-color: #e5e6eb00; }
 
 .select2-container.select2-container--focus .select2-selection--multiple, .select2-container.select2-container--focus .select2-selection--single {
-  background-color: #fefeff;
-  border-color: #95a0f4; }
+  background-color: #424242;
+  border-color: #e5e6eb00; }
 
 .select2-container.select2-container--open .select2-selection--single {
-  background-color: #fefeff;
-  border-color: #95a0f4; }
+  background-color: #424242;
+  border-color: #e5e6eb00; }
 
 .select2-results__option {
   padding: 10px; }
@@ -750,7 +751,7 @@ tr:first-child > td > .fc-day-grid-event {
 .select2-container--default .select2-selection--multiple .select2-selection__choice,
 .select2-container--default .select2-results__option[aria-selected=true],
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-  background-color: #6777ef;
+  background-color: #8997fc;
   color: #fff; }
 
 .select2-results__option {
@@ -758,18 +759,20 @@ tr:first-child > td > .fc-day-grid-event {
 
 /* 1.19 Selectric */
 .selectric {
-  background-color: #fdfdff;
-  border-color: #e4e6fc;
+  background-color: #212121;
+  border-color: #e4e6fc00;
+  color: #fafafa;
   min-height: 42px;
   border-radius: 3px;
   padding-left: 10px;
   padding-right: 10px; }
   .selectric:hover {
-    background-color: #fdfdff;
-    border-color: #e4e6fc; }
+    background-color: #212121;
+    border-color: #e4e6fc00;
+    color: #fafafa; }
   .selectric:focus {
-    background-color: #fefeff;
-    border-color: #95a0f4; }
+    background-color: #424242;
+    border-color: #e5e6eb00; }
   .selectric .label {
     font-size: 13px;
     background-color: transparent;
@@ -781,7 +784,7 @@ tr:first-child > td > .fc-day-grid-event {
     min-height: 42px; }
 
 .selectric-open .selectric {
-  border-color: #6777ef; }
+  border-color: #8997fc; }
 
 .selectric-above .selectric-items, .selectric-below .selectric-items {
   margin-bottom: 10px; }
@@ -797,7 +800,7 @@ tr:first-child > td > .fc-day-grid-event {
     .selectric-items li:hover {
       background-color: #f2f2f2; }
     .selectric-items li.selected, .selectric-items li.highlighted {
-      background-color: #6777ef;
+      background-color: #8997fc;
       color: #fff; }
 
 /* 1.20 Slider */
@@ -865,7 +868,7 @@ tr:first-child > td > .fc-day-grid-event {
     .statistic-details .statistic-details-item .detail-name {
       font-size: 12px;
       margin-top: 5px;
-      color: #34395e;
+      color: #fafafa;
       letter-spacing: .3px; }
     .statistic-details .statistic-details-item .detail-value {
       font-size: 18px;
@@ -900,8 +903,11 @@ tr:first-child > td > .fc-day-grid-event {
 /* 1.24 Summernote */
 .note-editor.note-frame {
   border-radius: 3px;
-  border: 1px solid #ededed;
+  border: 1px solid #121212;
   box-shadow: none; }
+  .note-editor.note-frame.note-editing-area.note-editable.card-block {
+    color: #fafafa !important;
+    background-color: #2c2c2c !important; }
 
 .note-toolbar {
   padding: 0 0 5px 5px !important;
@@ -909,8 +915,10 @@ tr:first-child > td > .fc-day-grid-event {
   .note-toolbar.card-header {
     height: auto;
     display: block;
-    min-height: auto; }
+    min-height: auto;
+    background-color: #1f1f1f; }
   .note-toolbar .note-btn {
+    color: #fafafa !important;
     font-size: 12px;
     background-color: transparent;
     box-shadow: none;
@@ -923,8 +931,8 @@ tr:first-child > td > .fc-day-grid-event {
   .swal-button:focus {
     box-shadow: none; }
   .swal-button.swal-button--confirm {
-    box-shadow: 0 2px 6px #acb5f6;
-    background-color: #6777ef; }
+    box-shadow: 0 2px 6px #d4d9fe;
+    background-color: #8997fc; }
     .swal-button.swal-button--confirm:focus {
       opacity: .8; }
 
@@ -938,8 +946,9 @@ tr:first-child > td > .fc-day-grid-event {
 
 /* 1.26 Tags Input */
 .bootstrap-tagsinput {
-  background-color: #fdfdff;
-  border-color: #e4e6fc;
+  background-color: #212121;
+  border-color: #e4e6fc00;
+  color: #fafafa;
   display: block;
   height: 46px;
   box-shadow: none;
@@ -948,14 +957,14 @@ tr:first-child > td > .fc-day-grid-event {
     height: 100%;
     padding: 0 8px; }
   .bootstrap-tagsinput .tag {
-    background-color: #6777ef;
+    background-color: #8997fc;
     border-radius: 3px;
     padding: 5px 10px; }
     .bootstrap-tagsinput .tag:first-child {
       margin-left: 5px; }
   .bootstrap-tagsinput:focus {
-    background-color: #fefeff;
-    border-color: #95a0f4; }
+    background-color: #424242;
+    border-color: #e5e6eb00; }
 
 /* 1.27 Time Picker */
 .bootstrap-timepicker-widget table td a span {
@@ -992,13 +1001,13 @@ tr:first-child > td > .fc-day-grid-event {
   content: "\f121"; }
 
 .toast.toast-error {
-  background-color: #fc544b; }
+  background-color: #ec7c76; }
 
 .toast.toast-warning {
-  background-color: #ffa426; }
+  background-color: #f0be78; }
 
 .toast.toast-success {
-  background-color: #47c363; }
+  background-color: #67db82; }
 
 .toast.toast-info {
   background-color: #fff; }
@@ -1019,7 +1028,7 @@ tr:first-child > td > .fc-day-grid-event {
     margin-top: 10px; }
     .user-item .user-details .user-name {
       font-weight: 600;
-      color: #191d21;
+      color: #121212;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis; }
@@ -1073,7 +1082,7 @@ tr:first-child > td > .fc-day-grid-event {
     line-height: 56px; }
   .weather .weather-desc .weather-text {
     font-size: 12px;
-    color: #34395e;
+    color: #fafafa;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -1088,10 +1097,10 @@ tr:first-child > td > .fc-day-grid-event {
   padding: 10px;
   line-height: 1;
   border-radius: 3px;
-  border: 2px solid #6777ef;
+  border: 2px solid #8997fc;
   font-size: 10px;
   font-weight: 500;
-  color: #6777ef;
+  color: #8997fc;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px; }
@@ -1122,7 +1131,7 @@ tr:first-child > td > .fc-day-grid-event {
   .icon-wrap .icon_unicode {
     width: 100%;
     padding-left: 45px;
-    color: #34395e; }
+    color: #fafafa; }
 
 .new-icons ul {
   padding: 0;
@@ -1190,11 +1199,11 @@ tr:first-child > td > .fc-day-grid-event {
     border-radius: 3px;
     margin-bottom: 10px; }
   .product-item .product-name {
-    color: #34395e;
+    color: #fafafa;
     font-weight: 700;
     margin-bottom: 3px; }
   .product-item .product-review {
-    color: #ffa426;
+    color: #f0be78;
     margin-bottom: 3px; }
   .product-item .product-cta {
     margin-top: 5px; }
@@ -1222,7 +1231,7 @@ tr:first-child > td > .fc-day-grid-event {
     display: flex;
     font-size: 12px;
     font-weight: 500;
-    color: #34395e;
+    color: #fafafa;
     letter-spacing: .5px; }
     .tickets-list .ticket-item .ticket-info .bullet {
       margin: 0 10px; }
@@ -1242,11 +1251,11 @@ tr:first-child > td > .fc-day-grid-event {
       .tickets .ticket-items .ticket-item:hover {
         background-color: rgba(63, 82, 227, 0.03); }
         .tickets .ticket-items .ticket-item:hover .ticket-title {
-          color: #6777ef; }
+          color: #8997fc; }
       .tickets .ticket-items .ticket-item.active {
-        box-shadow: 0 2px 6px #acb5f6;
+        box-shadow: 0 2px 6px #d4d9fe;
         border-radius: 3px;
-        background-color: #6777ef;
+        background-color: #8997fc;
         border-bottom: none; }
         .tickets .ticket-items .ticket-item.active .ticket-title, .tickets .ticket-items .ticket-item.active .ticket-desc {
           color: #fff !important; }
@@ -1260,7 +1269,7 @@ tr:first-child > td > .fc-day-grid-event {
         display: flex;
         font-size: 11px;
         font-weight: 500;
-        color: #34395e;
+        color: #fafafa;
         letter-spacing: .5px; }
         .tickets .ticket-items .ticket-item .ticket-desc .bullet {
           margin: 0 10px; }
@@ -1284,7 +1293,7 @@ tr:first-child > td > .fc-day-grid-event {
         letter-spacing: .3px;
         font-size: 12px;
         font-weight: 500;
-        color: #34395e; }
+        color: #fafafa; }
         .tickets .ticket-content .ticket-header .ticket-detail .ticket-info .bullet {
           margin: 0 10px; }
   .tickets .ticket-divider {
@@ -1293,7 +1302,7 @@ tr:first-child > td > .fc-day-grid-event {
     display: inline-block;
     background-color: #f2f2f2; }
   .tickets .ticket-description {
-    color: #34395e;
+    color: #fafafa;
     font-weight: 500;
     margin-top: 30px;
     line-height: 28px; }
@@ -1302,7 +1311,7 @@ tr:first-child > td > .fc-day-grid-event {
     .tickets .ticket-description .ticket-form {
       margin-top: 40px; }
       .tickets .ticket-description .ticket-form .note-editable {
-        color: #34395e;
+        color: #fafafa;
         font-weight: 500; }
         .tickets .ticket-description .ticket-form .note-editable p {
           margin-bottom: 5px; }
@@ -1345,7 +1354,7 @@ tr:first-child > td > .fc-day-grid-event {
 .owl-theme .owl-dots {
   margin-top: 20px !important; }
   .owl-theme .owl-dots .owl-dot.active span {
-    background-color: #6777ef; }
+    background-color: #8997fc; }
 
 /* 1.36 Activities */
 .activities {
@@ -1362,7 +1371,7 @@ tr:first-child > td > .fc-day-grid-event {
       top: 0;
       width: 2px;
       height: 100%;
-      background-color: #6777ef; }
+      background-color: #8997fc; }
     .activities .activity:last-child:before {
       display: none; }
     .activities .activity .activity-icon {
@@ -1379,7 +1388,7 @@ tr:first-child > td > .fc-day-grid-event {
       z-index: 1; }
     .activities .activity .activity-detail {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
-      background-color: #fff;
+      background-color: #2c2c2c;
       border-radius: 3px;
       border: none;
       position: relative;
@@ -1396,14 +1405,14 @@ tr:first-child > td > .fc-day-grid-event {
         color: #fff; }
       .activities .activity .activity-detail h4 {
         font-size: 18px;
-        color: #191d21; }
+        color: #121212; }
       .activities .activity .activity-detail p {
         margin-bottom: 0; }
 
 /* 1.37 Activities */
 .invoice {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
-  background-color: #fff;
+  background-color: #2c2c2c;
   border-radius: 3px;
   border: none;
   position: relative;
@@ -1426,7 +1435,7 @@ tr:first-child > td > .fc-day-grid-event {
       margin-bottom: 4px; }
     .invoice .invoice-detail-item .invoice-detail-value {
       font-size: 18px;
-      color: #34395e;
+      color: #fafafa;
       font-weight: 700; }
       .invoice .invoice-detail-item .invoice-detail-value.invoice-detail-value-lg {
         font-size: 24px; }
@@ -1445,7 +1454,7 @@ tr:first-child > td > .fc-day-grid-event {
   padding: 40px; }
   .empty-state .empty-state-icon {
     position: relative;
-    background-color: #6777ef;
+    background-color: #8997fc;
     width: 80px;
     height: 80px;
     line-height: 100px;
@@ -1464,20 +1473,20 @@ tr:first-child > td > .fc-day-grid-event {
 /* 1.39 Pricing */
 .pricing {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
-  background-color: #fff;
+  background-color: #2c2c2c;
   border-radius: 3px;
   border: none;
   position: relative;
   margin-bottom: 30px;
   text-align: center; }
   .pricing.pricing-highlight .pricing-title {
-    background-color: #6777ef;
+    background-color: #8997fc;
     color: #fff; }
   .pricing.pricing-highlight .pricing-cta a {
-    background-color: #6777ef;
+    background-color: #8997fc;
     color: #fff; }
     .pricing.pricing-highlight .pricing-cta a:hover {
-      background-color: #394eea !important; }
+      background-color: #576bfb !important; }
   .pricing .pricing-padding {
     padding: 40px; }
   .pricing .pricing-title {
@@ -1486,7 +1495,7 @@ tr:first-child > td > .fc-day-grid-event {
     text-transform: uppercase;
     letter-spacing: 2.5px;
     background-color: #f3f6f8;
-    color: #6777ef;
+    color: #8997fc;
     border-radius: 0 0 3px 3px;
     display: inline-block;
     padding: 5px 15px; }
@@ -1507,7 +1516,7 @@ tr:first-child > td > .fc-day-grid-event {
         line-height: 20px;
         border-radius: 50%;
         text-align: center;
-        background-color: #47c363;
+        background-color: #67db82;
         color: #fff;
         margin-right: 10px; }
         .pricing .pricing-details .pricing-item .pricing-item-icon i {
@@ -1567,7 +1576,7 @@ tr:first-child > td > .fc-day-grid-event {
  * Thanks to Spectre.css
  */
 .avatar {
-  background: #6777ef;
+  background: #8997fc;
   border-radius: 50%;
   color: #e3eaef;
   display: inline-block;
@@ -1627,11 +1636,11 @@ tr:first-child > td > .fc-day-grid-event {
     height: .5em;
     width: .5em; }
     .avatar .avatar-presence.online {
-      background: #47c363; }
+      background: #67db82; }
     .avatar .avatar-presence.busy {
-      background: #fc544b; }
+      background: #ec7c76; }
     .avatar .avatar-presence.away {
-      background: #ffa426; }
+      background: #f0be78; }
   .avatar[data-initial]::before {
     color: currentColor;
     content: attr(data-initial);
@@ -1649,7 +1658,7 @@ tr:first-child > td > .fc-day-grid-event {
   counter-reset: wizard-counter; }
   .wizard-steps .wizard-step {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
-    background-color: #fff;
+    background-color: #2c2c2c;
     border-radius: 3px;
     border: none;
     position: relative;
@@ -1675,35 +1684,35 @@ tr:first-child > td > .fc-day-grid-event {
       border-radius: 50%;
       background-color: #e3eaef; }
     .wizard-steps .wizard-step.wizard-step-active {
-      box-shadow: 0 2px 6px #acb5f6;
-      background-color: #6777ef;
+      box-shadow: 0 2px 6px #d4d9fe;
+      background-color: #8997fc;
       color: #fff; }
       .wizard-steps .wizard-step.wizard-step-active:before {
-        background-color: #6777ef;
+        background-color: #8997fc;
         color: #fff; }
     .wizard-steps .wizard-step.wizard-step-success {
-      background-color: #47c363;
+      background-color: #67db82;
       color: #fff; }
       .wizard-steps .wizard-step.wizard-step-success:before {
-        background-color: #47c363;
+        background-color: #67db82;
         color: #fff; }
     .wizard-steps .wizard-step.wizard-step-danger {
-      background-color: #fc544b;
+      background-color: #ec7c76;
       color: #fff; }
       .wizard-steps .wizard-step.wizard-step-danger:before {
-        background-color: #fc544b;
+        background-color: #ec7c76;
         color: #fff; }
     .wizard-steps .wizard-step.wizard-step-warning {
-      background-color: #ffa426;
+      background-color: #f0be78;
       color: #fff; }
       .wizard-steps .wizard-step.wizard-step-warning:before {
-        background-color: #ffa426;
+        background-color: #f0be78;
         color: #fff; }
     .wizard-steps .wizard-step.wizard-step-info {
-      background-color: #3abaf4;
+      background-color: #72caf3;
       color: #fff; }
       .wizard-steps .wizard-step.wizard-step-info:before {
-        background-color: #3abaf4;
+        background-color: #72caf3;
         color: #fff; }
     .wizard-steps .wizard-step .wizard-step-icon .fas, .wizard-steps .wizard-step .wizard-step-icon .far, .wizard-steps .wizard-step .wizard-step-icon .fab, .wizard-steps .wizard-step .wizard-step-icon .fal, .wizard-steps .wizard-step .wizard-step-icon .ion {
       font-size: 34px;

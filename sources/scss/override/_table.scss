@@ -12,7 +12,7 @@
   &:not(.table-sm) thead th {
     border-bottom: none;
     background-color: rgba(0, 0, 0, 0.04);
-    color: #666;
+    color: color(font);
     padding-top: 15px;
     padding-bottom: 15px;
   }

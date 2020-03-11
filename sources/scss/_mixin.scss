@@ -4,7 +4,7 @@
 
 @mixin card_base($border-radius: 3px) {
   @include shadow();
-  background-color: #fff;
+  background-color: color_lighten(body, 10%);
   border-radius: $border-radius;
   border: none;
   position: relative;
@@ -82,7 +82,7 @@
   top: 0;
   height: 100%;
   width: 250px;
-  background-color: #fff;
+  background-color: color_lighten(body, 10%);
   z-index: $z-index;
 }
 
@@ -93,6 +93,7 @@
 @mixin form-control() {
   background-color: color(formcontrol_normal_background);
   border-color: color(formcontrol_normal_border);
+  color: color(font);
 }
 
 @mixin form-control-focus() {

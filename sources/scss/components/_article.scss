@@ -33,7 +33,7 @@
     }
   }
   .article-details {
-    background-color: #fff;
+    background-color:color_lighten(body, 10%);
     padding: 20px;
     line-height: 24px;
     .article-cta {

@@ -2,8 +2,10 @@
 .input-group-text,
 .custom-select,
 .custom-file-label {
+  color: color(font);
   @include form-control;
   &:focus {
+    color: color(font);
     @include form-control-focus;
   }
 }
@@ -66,7 +68,7 @@ select.form-control:not([size]):not([multiple]) {
   .control-label,
   > label {
     font-weight: 600;
-    color: color(fontdark);
+    color: color(font);
     font-size: 12px;
     letter-spacing: .5px;
   }

@@ -97,7 +97,7 @@ body.sidebar-mini {
         }
         ul.dropdown-menu {
           position: absolute;
-          background-color: #fff;
+          background-color: color_lighten(body, 6.5%);
           left: 65px;
           top: 10px;
           width: 200px;
@@ -129,7 +129,7 @@ body.sidebar-mini {
           li {
             &:hover {
               > a {
-                background-color: color_lighten(light, 7.6%);
+                background-color: color_lighten(body, 20%);
               }
             }
             .dropdown-menu {
@@ -423,14 +423,14 @@ body.layout-3 {
           width: 100%;
         }
         &:hover {
-          background-color: color_lighten(light, 6.5%);
+          background-color: color_lighten(body, 6.5%);
         }
       }
       &.active {
         a {
           color: color(primary);
           font-weight: 600;
-          background-color: color_lighten(light, 6.5%);
+          background-color: color_lighten(body, 6.5%);
           &.has-dropdown {
             &:after {
               transform: translate(0, -50%) rotate(90deg);
@@ -450,7 +450,7 @@ body.layout-3 {
         li {
           a {
             &:hover {
-              background-color: color_lighten(light, 6.5%);
+              background-color: color_lighten(body, 10%);
             }
           }
         }
@@ -503,8 +503,8 @@ body.layout-3 {
 .main-footer {
   padding: 20px 30px 20px 280px;
   margin-top: 40px;
-  color: color(muted);
-  border-top: 1px solid color(light);
+  color: color(font);
+  border-top: 1px solid color_lighten(body, 5%);
   display: inline-block;
   width: 100%;
   .footer-left {

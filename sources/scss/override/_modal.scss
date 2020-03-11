@@ -1,6 +1,7 @@
 .modal-header,
 .modal-body,
 .modal-footer {
+  background-color: color_lighten(body, 10%);
   padding: 25px;
 }
 
@@ -14,7 +15,7 @@
 }
 
 .modal-header {
-  border-bottom: none;
+  border-bottom: 1px solid color_lighten(body, 5%);
   padding-bottom: 5px;
   h5 {
     font-size: 18px;
@@ -22,11 +23,12 @@
 }
 
 .modal-footer {
-  border-top: none;
+  border-top: 1px solid color_lighten(body, 5%);
   border-radius: 0 0 3px 3px;
 }
 
 .modal-content {
+  background-color: color_lighten(body, 10%);
   max-width: 100%;
   border: none;
   box-shadow: 0 3px 8px rgba(0, 0, 0, .05);

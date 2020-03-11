@@ -1,5 +1,5 @@
 .list-unstyled-border li {
-  border-bottom: 1px solid #f9f9f9;
+  border-bottom: 1px solid color_lighten(body, 5%);
   padding-bottom: 15px;
   margin-bottom: 15px;
   .custom-checkbox {

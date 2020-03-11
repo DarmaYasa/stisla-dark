@@ -118,7 +118,7 @@
 }
 
 .btn-secondary, .btn-secondary.disabled {
-  @include button-shadow(secondary, 7%);
+  // @include button-shadow(secondary, 7%);
   background-color: color(secondary);
   border-color: color(secondary);
   color: #fff;
@@ -136,7 +136,7 @@
 }
 
 .btn-success, .btn-success.disabled {
-  @include button-shadow(success);
+  // @include button-shadow(success);
   background-color: color(success);
   border-color: color(success);
   color: #fff;
@@ -154,7 +154,7 @@
 }
 
 .btn-danger, .btn-danger.disabled {
-  @include button-shadow(danger);
+  // @include button-shadow(danger);
   background-color: color(danger);
   border-color: color(danger);
   color: #fff;
@@ -171,7 +171,7 @@
 }
 
 .btn-dark, .btn-dark.disabled {
-  @include button-shadow(dark, 40%);
+  // @include button-shadow(dark, 40%);
   background-color: color(dark);
   border-color: color(dark);
   color: #fff;
@@ -188,7 +188,7 @@
 }
 
 .btn-light, .btn-light.disabled {
-  @include button-shadow(light, 1%);
+  // @include button-shadow(light, 1%);
   background-color: color(light);
   border-color: color(light);
   color: color(dark);
@@ -207,7 +207,7 @@
 }
 
 .btn-warning, .btn-warning.disabled {
-  @include button-shadow(warning);
+  // @include button-shadow(warning);
   background-color: color(warning);
   border-color: color(warning);
   color: #fff;
@@ -225,7 +225,7 @@
 }
 
 .btn-info, .btn-info.disabled {
-  @include button-shadow(info);
+  // @include button-shadow(info);
   background-color: color(info);
   border-color: color(info);
   color: #fff;
@@ -242,7 +242,7 @@
 }
 
 .btn-primary, .btn-primary.disabled {
-  @include button-shadow(primary);
+  // @include button-shadow(primary);
   background-color: color(primary);
   border-color: color(primary);
   &:focus {

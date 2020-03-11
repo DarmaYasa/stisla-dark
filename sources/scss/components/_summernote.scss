@@ -1,7 +1,11 @@
 .note-editor.note-frame {
   border-radius: 3px;
-  border: 1px solid #ededed;
+  border: 1px solid color(body);
   box-shadow: none;
+  &.note-editing-area.note-editable.card-block {
+    color: color(font) !important;
+    background-color: color_lighten(body, 10%) !important;
+  }
 }
 
 .note-toolbar {
@@ -11,8 +15,10 @@
     height: auto;
     display: block;
     min-height: auto;
+    background-color: color_lighten(body, 5%);
   }
   .note-btn {
+    color: color(font) !important;
     font-size: 12px;
     background-color: transparent;
     box-shadow: none;

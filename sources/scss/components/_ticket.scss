@@ -130,7 +130,8 @@
     .ticket-form {
       margin-top: 40px;
       .note-editable {
-        color: color(fontdark);
+        // background-color: color_lighten(body, 10%) !important;
+        color: color(font);
         font-weight: 500;
         p {
           margin-bottom: 5px;
